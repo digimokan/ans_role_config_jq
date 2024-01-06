@@ -1,0 +1,7 @@
+- name: "Install the 'jq' utility"
+  ansible.builtin.package:
+    name: jq
+    state: present
+  become: true
+  become_user: root
+
